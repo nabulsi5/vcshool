@@ -1,0 +1,62 @@
+body{
+    background-image: url(img/bg1.png);
+   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+
+.img{
+    width: 50% ;
+    border: solid 3px red;
+    background-color: white;
+}
+
+.box-img{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+input[type=number] {
+    width: 50%;
+    box-sizing: border-box;
+    background-color:darkseagreen;
+    color:firebrick;
+    border: solid 3px yellow;
+    font-weight: bolder;
+    
+}
+
+.Total{
+    color:brown;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+
+label{
+    background-color: floralwhite;
+    font-weight: bolder;
+    font-size: 25;
+    
+}
+
+
+.boxTotal {
+    border: 2px solid yellow;
+    padding: 10px 20px; 
+    background: #dddddd;
+    border-radius: 25px;
+    width: 90%;
+    color: darkred;
+    font-size: 24px;
+}
+
+
+.footer {
+    margin-top: 450px;
+}
+
+
+

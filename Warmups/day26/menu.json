@@ -1,0 +1,38 @@
+[{
+	"name": "appetizers",
+	"numberOfContent": 2,
+	"contents": [{
+			"name": "homs",
+			"contents": "batata&toom&bread&melh"
+		}, {
+			"name": "fatosh",
+			"contents": "lahmetfarroj&toom&sussiansalad"
+		}
+
+	]
+}, {
+	"name": "sandwish",
+	"numberOfContent": 2,
+	"contents": [{
+			"name": "batata",
+			"contents": "batata&toom&bread&melh"
+		}, {
+			"name": "shawerma",
+			"contents": "lahmetfarroj&toom&sussiansalad"
+		}
+
+	]
+}, {
+	"name": "mashrobat",
+	"numberOfContent": 3,
+	"contents": [{
+		"name": "shaiii",
+		"contents": "zarfshaii&sugar&watter"
+	}, {
+		"name": "coffee",
+		"contents": "coffee&watter"
+	}, {
+		"name": "zhorat",
+		"contents": "zhorat&watter&sugar"
+	}]
+}]

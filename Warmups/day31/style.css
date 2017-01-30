@@ -1,0 +1,18 @@
+.output{
+    width: 50%;
+    background-color: antiquewhite;
+    margin: 40px;
+    border-radius: 25px;
+    border: 2px solid yellow;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+h1{
+    color: darksalmon;
+}
+
+.output button{
+margin: 20px;
+}

@@ -1,0 +1,55 @@
+body{
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color:cornsilk;
+    }
+
+.head{
+    background-color: black;
+    text-align: center;
+    font-family: cursive;
+    color: aliceblue;
+    height: 50px;
+    vertical-align: middle;
+    width: 100%;
+    border: 8px white solid;
+    
+}
+
+
+
+
+
+.content{
+    height: 710px;
+}
+
+a{
+    padding: 80px;
+    margin: 70px;
+    font-size: 22px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav{
+       background-color: black;
+    text-align: center;
+    font-family: cursive;
+    color: aliceblue;
+    height: 50px;
+    vertical-align: middle;
+    width: 100%;
+    border: 8px white solid;
+     
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    font-family: cursive;
+    color: aliceblue;
+    height: 50px;
+    vertical-align: middle;
+    border: 8px white solid;
+}

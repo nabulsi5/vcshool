@@ -1,0 +1,21 @@
+.box{
+    border-style: solid 2px burlywood;
+    width: 50%;
+    height: 50px;
+    float: left;
+
+}
+
+.box-color1{
+    background-color:#FFEEBC;
+    color: black; 
+    padding-top: 10px;
+} 
+
+.box-color2{
+    background-color:#D6FFBC;
+    color: black; 
+    padding-top: 10px;
+} 
+
+

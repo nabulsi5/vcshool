@@ -1,0 +1,34 @@
+table{
+    border: solid 3px burlywood;
+    
+
+}
+
+th{
+    background-color:dimgrey;
+    padding: 10px;
+}
+
+
+tr:nth-child(odd) {
+    background-color:antiquewhite;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color:darksalmon;
+    color: white;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+    color: darkred;
+}
+
+
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+

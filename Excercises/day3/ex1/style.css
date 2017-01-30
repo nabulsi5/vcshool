@@ -1,0 +1,31 @@
+p{
+    color: blue;
+    font-size: 40px;
+}
+
+.firstClass{
+    color: darkkhaki;
+    font-size: 40px;
+    background-color: azure;
+    text-align: center;
+font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.secandClass{
+    color:darkcyan;
+    font-size: 30px;
+    border-bottom-style: dashed;
+    border-color:burlywood;
+}
+
+.thirdClass{
+    color:darkseagreen;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px;
+    border-bottom-style: dashed;
+    border-color: dodgerblue;
+    text-align: right;
+    
+}

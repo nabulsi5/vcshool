@@ -1,0 +1,39 @@
+.bigIcon{
+    font-size: 100px;
+    text-align: center;
+    
+}
+
+.bigIcon a:hover{
+    color:red;
+}
+
+
+.box-rose{
+    background-color:mistyrose;
+    height: 150px;
+}
+
+.box-red{
+    background-color:crimson;
+    height: 150px;
+    border: solid white 5px;
+}
+
+.box-blue{
+    background-color:deepskyblue;
+    height: 150px;
+    border: solid white 5px;
+}
+
+.box-green{
+    background-color:green;
+    height: 150px;
+    border: solid white 5px;
+}
+
+.box-wood{
+    background-color:burlywood;
+    height: 150px;
+    border: solid white 5px;
+}

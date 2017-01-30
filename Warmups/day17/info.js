@@ -1,0 +1,3 @@
+$("").click(function(){
+    $(this).hide();
+});

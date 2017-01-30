@@ -1,0 +1,29 @@
+h1{
+    color: darkgreen;
+    text-align: center;
+}
+
+h2{
+   font-family:'Geirgia ';
+   text-align: center; 
+}
+
+p{
+    line-height: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#text-big{
+text-transform: uppercase;
+}
+
+a hover{
+    text-decoration:underline; 
+}
+
+img{
+    float: left;
+}

@@ -1,0 +1,32 @@
+#text1{
+    background-color:darksalmon;
+    font-family: sans-serif;
+    color: firebrick;
+    margin: 20px;
+}
+
+#text2{
+    background-color: darksalmon;
+    font-family:serif;
+    font-weight:bolder;
+    color:deeppink;
+    margin: 20px;
+}
+
+#text3{
+    background-color:darksalmon;
+    font-family: monospace;
+    margin: 20px;
+}
+
+.sizeFont{
+    font-size: 50px;
+    
+}
+
+
+.border_box{
+    border-bottom: 3px;
+    border-bottom-style: dashed;
+    border-color:crimson;
+}

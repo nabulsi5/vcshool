@@ -1,0 +1,45 @@
+body{
+    background-image: url(img/bg2.jpg);
+   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+
+.img{
+    width: 200px ;
+    border: solid 3px red;
+    background-color: white;
+}
+
+.box-img{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+input[type=number] {
+    width: 200px;
+    box-sizing: border-box;
+    background-color:darkorange;
+    color:firebrick;
+    border: solid 3px yellow;
+    font-weight: bolder;
+    
+}
+
+h1{
+    color:red;
+    text-align: center;
+    background-color: azure;
+    font-family: sans-serif;
+    border: solid 3px red;
+}
+
+
+label{
+    background-color: floralwhite;
+    font-weight: bolder;
+    
+}
+
