@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mom's Shopping List</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+</head>
+<body ng-app="myApp">
+  <h1 align="center">Mom's Shopping List</h1>
+  <div ng-controller="mainCtrl">
+    <input ng-model="std" class="form-control">
+    <br>
+<button ng-click="addStd()" class="btn btn-info form-control" id="btnAdd" >Add</button>  
+     <br>   
+    <div ng-repeat="name in printStd track by $index">
+        <p>{{name}} {{$index}} <button ng-click="remove($index)">X</button></p> 
+    </div>
+  </div>
+  
+<div align="center"><img src="img.png" width="50%"></div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+  <script src="MomShoppingList.js"></script>
+</body>
+</html>
+
+
+
+
+
+

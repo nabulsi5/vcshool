@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> document</title>
+</head>
+<body>
+    <div ng-app="secondApp">
+        <div ng-controller="mainController">
+            <div ng-repeat="first in player.kills">
+                {{"Handle: "+first.handle}}<br>
+                {{"Rank: " + first.rank}}
+                <ul ng-repeat="one in first.clan">
+                    <li>{{one}}</li>
+                </ul>
+            </div>
+        </div>
+         <div ng-controller="mainController2">
+             {{cont}}
+        </div>
+    </div>
+    
+    <script src="https://code.angularjs.org/1.6.1/angular.min.js"></script>
+    <script src="player.js"></script>
+</body>
+</html>
