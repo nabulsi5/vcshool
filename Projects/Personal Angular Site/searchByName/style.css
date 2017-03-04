@@ -1,0 +1,44 @@
+body{
+	background-image:url(img/bg4.png);
+	background-repeat:repeat;
+}
+
+
+
+div .year{
+	font-size:20px;
+	color:red;
+	background-color:#CF0;
+	padding:5px;
+}
+
+div .summary{
+	padding:10px;
+	background-color:#CCC;
+	height:300px;
+	overflow:hidden;
+	border:solid 3px #FFFFFF;
+	text-overflow: ellipsis;
+}
+
+
+div .cover{
+	padding-top:10px;
+}
+
+
+
+
+.genres{
+	color:#063;
+	margin-right:20px
+}
+
+.content{
+}
+
+.cover img{
+	border: 5px white solid;
+	box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 3px;
+}

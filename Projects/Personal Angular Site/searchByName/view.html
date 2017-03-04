@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Vschool</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body ng-app="app" ng-controller="myCtrl">
+
+    <br>
+
+    <div class="container-fluid" ng-init='getData()'>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <input type='text' ng-model='movieName' placeholder='Search By Name:' ng-change='searchByName();' class="form-control">
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class='col-md-4 content' ng-repeat="movie in movies.data.movies | orderBy : '-year'">
+                    <div class="cover" align="center"> <img class="img-responsive" src="{{movie.medium_cover_image}}"> </div>
+                    <div class="title">
+                        <h3><a href="{{movie.url}}" target="_blank">{{movie.title}}</a></h3>
+                    </div>
+                    <div class="year">
+                        <small style='margin-right:20px;'>Year : {{movie.year}}</small>
+                        <small style='margin-right:20px;'>Rating : {{movie.rating}}</small>
+                        <br />
+                        <small class="genres">genres : {{movie.genres[0]}}</small>
+                    </div>
+
+                    <div class="summary">
+                        <p> {{movie.summary}} </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <br />
+
+
+
+
+
+        </div>
+
+
+        <script src="https://code.angularjs.org/1.6.2/angular.min.js"></script>
+        <script src="app.js"></script>
+</body>
+
+</html>
