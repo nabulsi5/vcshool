@@ -1,0 +1,48 @@
+body {
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.mail {
+    height: 100px;
+    background-color: #41959F;
+    color: white;
+}
+
+.internet {
+    height: 100px;
+    background-color: #494CB7;
+    color: white;
+}
+
+.store {
+    height: 100px;
+    background-color: #56B13C;
+}
+
+.bing {
+    height: 100px;
+    background-color: #ECC67B;
+    padding: 10px;
+}
+
+.app {
+    height: 100px;
+    background-color: #393983;
+}
+
+.icon {
+    margin-top: 10%;
+    margin-left: 40%;
+    font-size: 44px;
+    color: aliceblue;
+}
+
+.title {
+    color: white;
+    margin-left: 40px;
+}
+
+input {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
